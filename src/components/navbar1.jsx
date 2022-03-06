@@ -30,7 +30,7 @@ function Navbar1() {
   return (
    <ThemeProvider theme={theme}>
     <Box sx={{mt: 6}}>
-    <AppBar position="absolute"  style={{ background: 'transparent', boxShadow: 'none', overflow: 'hidden'}} sx={{pr: 5, pl: 5, pt: 5}} >
+      <AppBar position="absolute"  style={{ background: 'transparent', boxShadow: 'none', overflow: 'hidden'}} sx={{pr: 5, pl: 5, pt: 5}} >
         <Toolbar>
           <IconButton
             size="medium"
