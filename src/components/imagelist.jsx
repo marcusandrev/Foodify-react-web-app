@@ -11,7 +11,7 @@ import { CardActionArea } from '@mui/material';
 function FormRow() {
     return (
       <React.Fragment>
-        <Grid item xs={4}>
+        <Grid item xs={4} >
           <Card> 
             <CardActionArea>
               <CardMedia
@@ -150,8 +150,8 @@ function FormRow() {
   function ImageList() {
     return (
       <Box sx={{ flexGrow: 2, width: '80%', height: '70%', justifyContent: 'center' }}>
-        <Grid container spacing={6}>
-          <Grid container item spacing={6}>
+        <Grid container spacing={6}  >
+          <Grid container item spacing={6} >
             <FormRow />
           </Grid>
           {/* <Grid container item spacing={6}>

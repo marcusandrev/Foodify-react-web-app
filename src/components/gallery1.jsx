@@ -11,7 +11,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
 import DirectionsIcon from "@mui/icons-material/Directions";
 
-import Group02585 from "../assets/gallery1/Group02585.png"
+import Group02585 from "../assets/gallery1/Group02585.png";
 
 //MUI
 import { createTheme, ThemeProvider } from "@mui/material/styles";
@@ -30,26 +30,15 @@ const theme = createTheme({
   },
   paperContainer: {
     backgroundImage: `url(${Group02585})`,
-   
-    backgroundSize: 'cover',
-    
-}
-}); 
+
+    backgroundSize: "cover",
+  },
+});
 
 function gallery1() {
   return (
     <ThemeProvider theme={theme}>
-        
-          
-
-          {/* <div style={theme.paperContainer}> */}
-               
-            
-
-
-
-
-
+      {/* <div style={theme.paperContainer}> */}
 
       <Grid
         container

@@ -12,6 +12,7 @@ import Paper from "@mui/material/Paper";
 import Navbar3 from "../components/navbar3";
 import Gallery1 from "../components/gallery1";
 import Group02585 from "../assets/gallery1/Group02585.png";
+import ImageList from "../components/imagelist";
 
 //MUI
 import { createTheme, ThemeProvider } from "@mui/material/styles";
@@ -40,8 +41,11 @@ function Gallery() {
       <Navbar3 />
       <div style={theme.paperContainer} xs={{ pt: 50 }}>
         <Gallery1 />
+       
       </div>
-      <menuItems />
+      <ImageList />
+      {/* <menuItems /> */}
+      
     </ThemeProvider>
   );
 }
