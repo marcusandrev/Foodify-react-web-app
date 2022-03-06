@@ -30,7 +30,7 @@ function Navbar1() {
   return (
    <ThemeProvider theme={theme}>
     <Box sx={{mt: 6}}>
-      <AppBar position="static"  elevation={0} color="secondary" sx={{pr: 5, pl: 5}}>
+    <AppBar position="absolute"  style={{ background: 'transparent', boxShadow: 'none', overflow: 'hidden'}} sx={{pr: 5, pl: 5, pt: 5}} >
         <Toolbar>
           <IconButton
             size="medium"
@@ -42,6 +42,7 @@ function Navbar1() {
             <img src={logo} sx={{ flexGrow: 1 }} />
           </IconButton>
           
+  
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           </Typography>
           <Button variant="contained" sx={{  flexDirection: 'row-reverse'  }} style={{background: "##FFB966"}}>Login</Button>
