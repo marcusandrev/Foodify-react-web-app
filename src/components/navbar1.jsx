@@ -7,6 +7,7 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 
 import logo from "../assets/foodify.png";
+import { Link, useHistory } from "react-router-dom";
 
 
 //setting themes
@@ -14,6 +15,7 @@ import logo from "../assets/foodify.png";
 
 //MUI
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { Login } from "@mui/icons-material";
 
 const theme = createTheme({
   palette: {
@@ -39,13 +41,18 @@ function Navbar1() {
           >
 
 
-            <img src={logo} sx={{ flexGrow: 1 }} />
+            <img src={logo}  style={{width: '100%', height: 'auto'}}/>
           </IconButton>
           
   
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           </Typography>
-          <Button variant="contained" sx={{  flexDirection: 'row-reverse'  }} style={{background: "##FFB966"}}>Login</Button>
+          <Button variant="contained" sx={{  flexDirection: 'row-reverse'  }} style={{background: "##FFB966"}}>
+            <Link to="/login" style={{textDecoration: "none", color: '#FFFF'}}>
+            Login
+            </Link>
+            
+            </Button>
         </Toolbar>
       </AppBar>
     </Box>
