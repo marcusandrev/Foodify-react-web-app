@@ -1,27 +1,20 @@
-export default{
-    // palette: {
-    //   primary: {
-    //     light: '#4b3d44',
-    //     main: '#23171d',
-    //     dark: '#000000',
-    //     contrastText: '#fff',
-    //   },
-    //   secondary: {
-    //     light: '#ff8862',
-    //     main: '#ff5436',
-    //     dark: '#c41609',
-    //     contrastText: '#000',
-    //   },
-    // }, 
-    // typography: { this is depracated already
-    //   useNextVariants: true
-    // },
-    // spread : {
-    //   typography: {
-    //     useNextVariants: true
-    //   }
-    // },
-    // appBar: {
-    //   height: 20, // Instead of 64
-    // },
-  }
+import { createTheme } from "@mui/system"
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      // light: '#757ce8',
+      main: '###FFB966',
+      // dark: '#002884',
+      // contrastText: '#fff',
+    },
+    secondary: {
+      // light: '#ff7961',
+      main: '##FADC69',
+      // dark: '#ba000d',
+      // contrastText: '#000',
+    },
+  },
+});
+
+export default theme;

@@ -3,10 +3,10 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 //setting themes
-import themeObject from "./util/theme";
+import theme from "./util/theme";
 
 //MUI
-import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { ThemeProvider } from "@mui/material/styles";
 
 //pages
 import Landing from "./pages/landing";
@@ -17,12 +17,12 @@ import Breadcrumbs2 from "./pages/breadcrumbs2";
 
 
 
-const theme = createTheme(themeObject);
+// const theme = createTheme(themeObject);
 //theme is depending if there is palette/specific themes; check out util folder to see this (theme.js)
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
+    // <ThemeProvider theme={theme}>
    
       <Router>
         <Routes>
@@ -33,7 +33,7 @@ function App() {
           <Route path="/breadcrumbs2" element={<Breadcrumbs2 />} />
         </Routes>
       </Router>
-    </ThemeProvider>
+    // </ThemeProvider>
   );
 }
 
