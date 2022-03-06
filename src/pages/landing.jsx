@@ -29,9 +29,9 @@ class Landing extends Component {
   render() {
     const { classes } = this.props;
     return (
-      <div>
+      <div position='relative'>
+        <img src={landing} style={{width: '100%', height: 'auto'}}/>
         <Navbar1 />
-       
         <Landing2 />
         <Landingfooter />
 
