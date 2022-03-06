@@ -9,7 +9,6 @@ import IconButton from "@mui/material/IconButton";
 import logo from "../assets/foodify.png";
 import { Link, useHistory } from "react-router-dom";
 
-
 //setting themes
 // import theme from "../util/theme";
 
@@ -20,44 +19,53 @@ import { Login } from "@mui/icons-material";
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#FFB966',
+      main: "#FFB966",
     },
     secondary: {
-      main: '#FFFF'
-    }
-  }
-})
+      main: "#FFFF",
+    },
+  },
+});
 
 function Navbar1() {
   return (
-   <ThemeProvider theme={theme}>
-    <Box sx={{mt: 6}}>
-      <AppBar position="absolute"  style={{ background: 'transparent', boxShadow: 'none', overflow: 'hidden'}} sx={{pr: 5, pl: 5, pt: 5}} >
-        <Toolbar>
-          <IconButton
-            size="medium"
-            color="inherit"
-            aria-label="menu"
-          >
+    <ThemeProvider theme={theme}>
+      <Box sx={{ mt: 6 }}>
+        <AppBar
+          position="absolute"
+          style={{
+            background: "transparent",
+            boxShadow: "none",
+            overflow: "hidden",
+          }}
+          sx={{ pr: 5, pl: 5, pt: 5 }}
+        >
+          <Toolbar>
+            <IconButton size="medium" color="inherit" aria-label="menu">
+              <img src={logo} style={{ width: "100%", height: "auto" }} />
+            </IconButton>
 
-
-            <img src={logo}  style={{width: '100%', height: 'auto'}}/>
-          </IconButton>
-          
-  
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          </Typography>
-          <Button variant="contained" sx={{  flexDirection: 'row-reverse'  }} style={{background: "##FFB966"}}>
-            <Link to="/login" style={{textDecoration: "none", color: '#FFFF'}}>
-            Login
-            </Link>
-            
+            <Typography
+              variant="h6"
+              component="div"
+              sx={{ flexGrow: 1 }}
+            ></Typography>
+            <Button
+              variant="contained"
+              sx={{ flexDirection: "row-reverse" }}
+              style={{ background: "##FFB966" }}
+            >
+              <Link
+                to="/login"
+                style={{ textDecoration: "none", color: "#FFFF" }}
+              >
+                Log In
+              </Link>
             </Button>
-        </Toolbar>
-      </AppBar>
-    </Box>
+          </Toolbar>
+        </AppBar>
+      </Box>
     </ThemeProvider>
-    
   );
 }
 

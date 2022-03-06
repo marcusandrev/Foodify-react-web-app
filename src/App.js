@@ -12,7 +12,7 @@ import { ThemeProvider } from "@mui/material/styles";
 import Landing from "./pages/landing";
 import Login from "./pages/login";
 import Gallery from "./pages/gallery";
-import Breadcrumbs1 from "./pages/breadcrumbs1";
+import BreadcrumbsOne from "./pages/breadcrumbsOne";
 import Breadcrumbs2 from "./pages/breadcrumbs2";
 
 
@@ -29,7 +29,7 @@ function App() {
           <Route path="/" element={<Landing />} />
           <Route path="/login" element={<Login />} />
           <Route path="/gallery" element={<Gallery />} />
-          <Route path="/breadcrumbs1" element={<Breadcrumbs1 />} />
+          <Route path="/breadcrumbsone" element={<BreadcrumbsOne />} />
           <Route path="/breadcrumbs2" element={<Breadcrumbs2 />} />
         </Routes>
       </Router>

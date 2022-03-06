@@ -6,14 +6,14 @@ import Grid from "@mui/material/Grid";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import Link from "@mui/material/Link";
+// import Link from "@mui/material/Link";
 import AppBar from "@mui/material/AppBar";
 
 //MUI
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 import Loginfooter from "../components/loginfooter";
-// import { Link, useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const theme = createTheme({
   palette: {
@@ -55,8 +55,9 @@ const Login = () => {
             variant="outlined"
             fullWidth
             required
+            style={{marginBottom: "10px"}}
           />
-          <label>Password</label>
+          <label >Password</label>
           <TextField
             placeholder="Enter your password"
             type="password"
@@ -64,30 +65,32 @@ const Login = () => {
             fullWidth
             required
           />
+
           <Button
-            type="submit"
-            color="primary"
-            variant="contained"
-            style={btnstyle}
-            fullWidth
-          >
-            {/* <Link
-              to="/breadcrumbs1"
-              style={{ textDecoration: "none", color: "#FFFF" }}
-            > */}
-              Log In
-            {/* </Link> */}
-          </Button>
+              variant="contained"
+              sx={{ flexDirection: "row-reverse" }}
+              style={{ background: "##FFB966", alignItems: "center", textAlign: "center", justifyContent: "center", marginTop: "10px" }}
+              
+            >
+              <Link
+                to="/gallery"
+                style={{ textDecoration: "none", color: "#FFFF" }}
+              >
+                Log In
+              </Link>
+            </Button>
           <Typography align="right">
-            <Link href="#">Forgot password ?</Link>
+            <a href="#" style={{ color: "#FFB966" }}>
+              Forgot password ?
+            </a>
           </Typography>
         </Paper>
         <Typography align="center">
           {" "}
           Do you have an account?
-          <Link href="#" style={{ paddingLeft: "6px" }}>
+          <a href="#" style={{ paddingLeft: "6px", color: "#FFB966" }}>
             Sign Up
-          </Link>
+          </a>
         </Typography>
       </Grid>
       <Loginfooter />
