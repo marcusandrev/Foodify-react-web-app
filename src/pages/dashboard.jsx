@@ -35,8 +35,8 @@ function Dashboard() {
           <img src={dashboard} style={{width:'90%', height:'auto', justifyContent:'center'}}/>
         </div>
         <hr width='1130px'/>
-        <div style={{fontWeight:'bold', paddingLeft:'115px', paddingTop:'20px'}}>Select your preferred food choices:</div>
-        <div style={{paddingTop:'30px', paddingLeft:'110px', paddingBottom:'30px'}}>
+        <div style={{fontWeight:'bold', paddingLeft:'400px', paddingTop:'20px'}}>Select your preferred food choices:</div>
+        <div style={{paddingTop:'30px', paddingLeft:'400px', paddingBottom:'30px'}}>
           <Button 
             startIcon={<AutoAwesomeOutlinedIcon/>} 
             style={{marginRight:'30px', width:'15em', height:'4em', borderRadius: '20px'}}
@@ -64,8 +64,8 @@ function Dashboard() {
               Dairy</Button>
         </div>
         <hr width='1130px'/>
-        <div style={{fontWeight:'bold', paddingLeft:'115px', paddingTop:'20px'}}>Select your secondary preferred food choices:</div>
-        <div style={{paddingTop:'30px', paddingLeft:'110px', paddingBottom:'30px'}}>
+        <div style={{fontWeight:'bold', paddingLeft:'400px', paddingTop:'20px'}}>Select your secondary preferred food choices:</div>
+        <div style={{paddingTop:'30px', paddingLeft:'400px', paddingBottom:'30px'}}>
         <Button 
             startIcon={<AutoAwesomeOutlinedIcon/>} 
             style={{marginRight:'30px', width:'15em', height:'4em', borderRadius: '20px'}}
@@ -88,7 +88,7 @@ function Dashboard() {
               Neutral</Button>
         <Button 
             startIcon={<AutoAwesomeOutlinedIcon/>} 
-            style={{marginRight:'30px', width:'15em', height:'4em', borderRadius: '20px'}}
+            style={{marginRight:'120px', width:'15em', height:'4em', borderRadius: '20px'}}
             variant='outlined'>
               Animal Friendly</Button>
         <Button 
