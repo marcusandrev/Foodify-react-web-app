@@ -1,3 +1,31 @@
+# About
+
+Foodify is a website portal that will help you choose and show all the nutritional content of the food that you’ll be cooking. This project was created in under 36 hours for GDSC Loyola HackFest 2022: Gen Z.
+
+<b>Technologies:</b> React, JavaScript, Material UI
+
+<b>Note:</b> Due to time constraints and the failure of request of the Atrify API, the APIs placed weren't used. Our request for key wasn't processed immediately by the platform.
+
+# Screenshots
+
+### Landing Page
+
+![Landing](src/assets/read-me-files/Landing%20page.png)
+
+### Log In Page
+
+![Log In](<src/assets/read-me-files/Log-in%20Page%20(1).png>)
+
+### Dashboard
+
+![Dashboard](src/assets/read-me-files/Dashboard.png)
+
+### Pages
+
+![First](<src/assets/read-me-files/Landing%20page%20(1).png>)
+![Second](src/assets/read-me-files/Fruits%20page.png)
+![Third](<src/assets/read-me-files/Fruits%20page%20(1).png>)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
