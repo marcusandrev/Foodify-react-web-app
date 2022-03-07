@@ -13,7 +13,6 @@ import Landing2 from "../components/landing2";
 import Landingfooter from "../components/landingfooter";
 
 import landing from "../assets/landing1/landing2.jpg";
-
 class Landing extends Component {
   state = {
     curTime: 0,
