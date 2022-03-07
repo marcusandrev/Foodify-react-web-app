@@ -67,7 +67,7 @@ const Login = () => {
           />
 
           <Button
-              variant="contained"
+              variant="contained" fullWidth
               sx={{ flexDirection: "row-reverse" }}
               style={{ background: "##FFB966", alignItems: "center", textAlign: "center", justifyContent: "center", marginTop: "10px" }}
               
