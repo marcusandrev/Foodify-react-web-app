@@ -13,7 +13,7 @@ import Landing from "./pages/landing";
 import Login from "./pages/login";
 import Gallery from "./pages/gallery";
 import BreadcrumbsOne from "./pages/breadcrumbsOne";
-import Breadcrumbs2 from "./pages/breadcrumbs2";
+import BreadcrumbsTwo from "./pages/breadcrumbsTwo";
 import Dashboard from "./pages/dashboard";
 
 
@@ -31,7 +31,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/breadcrumbsone" element={<BreadcrumbsOne />} />
-          <Route path="/breadcrumbs2" element={<Breadcrumbs2 />} />
+          <Route path="/breadcrumbstwo" element={<BreadcrumbsTwo />} />
           <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
       </Router>

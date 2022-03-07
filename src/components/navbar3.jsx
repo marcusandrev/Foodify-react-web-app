@@ -47,11 +47,21 @@ function Navbar3() {
 
           <div style={{display: 'flex', paddingLeft: '100px'}}>
             <Button sx={{ my: 2, color: "primary", display: "block", mr: 10}}>
+            <Link
+                to="/gallery"
+                style={{ textDecoration: "none" }}
+              >
               Products
+              </Link>
             </Button>
 
             <Button sx={{ my: 2, color: "primary", display: "block" }}>
+            <Link
+                to="/dashboard"
+                style={{ textDecoration: "none" }}
+              >
               Dashboard
+              </Link>
             </Button>
             </div>
 
