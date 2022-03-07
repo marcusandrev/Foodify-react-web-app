@@ -47,8 +47,8 @@ function gallery1() {
         alignItems="center"
         justifyContent="center"
       >
-        <Typography variant="h2" component="div" sx={{ mt: 20 }}>
-          Discover food categories
+        <Typography variant="h2" component="div" color="primary" sx={{ mt: 20 }}>
+          Discover <font color="black">food categories</font>
         </Typography>
       </Grid>
 
