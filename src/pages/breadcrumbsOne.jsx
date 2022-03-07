@@ -7,7 +7,6 @@ import Fruits2 from "../components/fruits2";
 
 import unsplash_7r1HxvVC7AY from "../assets/fruitspage/unsplash_7r1HxvVC7AY.png"
 
-import menuItems from "../components/api/recipe";
 
 function BreadcrumbsOne() {
   return (

@@ -1,10 +1,10 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from "react";
 
 const axios = require("axios");
 
 export default function MenuItems() {
   //const [data, setData] = useState("");
-  const apiKey = "0770b91588ab40e6aa3549eeaf9250ea";
+  const apiKey = process.env.API_KEY;
   const id = "424571";
   useEffect(() => {
     axios
@@ -20,5 +20,4 @@ export default function MenuItems() {
         console.log(err);
       });
   }, []);
-
 }

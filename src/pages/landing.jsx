@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 //button imports
 import Stack from "@mui/material/Stack";
 
-
 import Navbar1 from "../components/navbar1";
 import Landing2 from "../components/landing2";
 import Landingfooter from "../components/landingfooter";
@@ -29,12 +28,11 @@ class Landing extends Component {
   render() {
     const { classes } = this.props;
     return (
-      <div position='relative'>
-        <img src={landing} style={{width: '100%', height: 'auto'}}/>
+      <div position="relative">
+        <img src={landing} style={{ width: "100%", height: "auto" }} />
         <Navbar1 />
         <Landing2 />
         <Landingfooter />
-
       </div>
     );
   }

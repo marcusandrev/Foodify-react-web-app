@@ -47,7 +47,12 @@ function gallery1() {
         alignItems="center"
         justifyContent="center"
       >
-        <Typography variant="h2" component="div" color="primary" sx={{ mt: 20 }}>
+        <Typography
+          variant="h2"
+          component="div"
+          color="primary"
+          sx={{ mt: 20 }}
+        >
           Discover <font color="black">food categories</font>
         </Typography>
       </Grid>
@@ -84,18 +89,18 @@ function gallery1() {
             display: "flex",
             alignItems: "center",
             // responsive design for searchbar
-            [theme.breakpoints.up('xl')]: {
-              width: '50vw',
+            [theme.breakpoints.up("xl")]: {
+              width: "50vw",
             },
-            [theme.breakpoints.up('lg')]: {
-              width: '60vw',
+            [theme.breakpoints.up("lg")]: {
+              width: "60vw",
             },
-            [theme.breakpoints.up('md')]: {
-              width: '70vw',
+            [theme.breakpoints.up("md")]: {
+              width: "70vw",
             },
-            [theme.breakpoints.up('sm')]: {
-              width: '80vw',
-            },  
+            [theme.breakpoints.up("sm")]: {
+              width: "80vw",
+            },
           }}
         >
           <IconButton type="submit" sx={{ p: "10px" }} aria-label="search">

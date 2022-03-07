@@ -41,11 +41,9 @@ function Gallery() {
       <Navbar3 />
       <div style={theme.paperContainer} xs={{ pt: 50 }}>
         <Gallery1 />
-       
       </div>
       <ImageList />
       {/* <menuItems /> */}
-      
     </ThemeProvider>
   );
 }

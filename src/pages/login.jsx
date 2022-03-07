@@ -55,9 +55,9 @@ const Login = () => {
             variant="outlined"
             fullWidth
             required
-            style={{marginBottom: "10px"}}
+            style={{ marginBottom: "10px" }}
           />
-          <label >Password</label>
+          <label>Password</label>
           <TextField
             placeholder="Enter your password"
             type="password"
@@ -67,18 +67,24 @@ const Login = () => {
           />
 
           <Button
-              variant="contained" fullWidth
-              sx={{ flexDirection: "row-reverse" }}
-              style={{ background: "##FFB966", alignItems: "center", textAlign: "center", justifyContent: "center", marginTop: "10px" }}
-              
+            variant="contained"
+            fullWidth
+            sx={{ flexDirection: "row-reverse" }}
+            style={{
+              background: "##FFB966",
+              alignItems: "center",
+              textAlign: "center",
+              justifyContent: "center",
+              marginTop: "10px",
+            }}
+          >
+            <Link
+              to="/gallery"
+              style={{ textDecoration: "none", color: "#FFFF" }}
             >
-              <Link
-                to="/gallery"
-                style={{ textDecoration: "none", color: "#FFFF" }}
-              >
-                Log In
-              </Link>
-            </Button>
+              Log In
+            </Link>
+          </Button>
           <Typography align="right">
             <a href="#" style={{ color: "#FFB966" }}>
               Forgot password ?

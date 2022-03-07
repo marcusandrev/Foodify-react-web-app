@@ -84,7 +84,7 @@ function Landing2() {
         <Grid item xs={8} textAlign="right">
           <h1>Choose your meals</h1>
 
-          <p style={{ textAlign: "right", paddingRight: "10" }} sx={{ p: 0}}>
+          <p style={{ textAlign: "right", paddingRight: "10" }} sx={{ p: 0 }}>
             We keep dinner interesting. From top-rated favorites and
           </p>
 

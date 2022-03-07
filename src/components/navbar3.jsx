@@ -45,24 +45,20 @@ function Navbar3() {
               <img src={logo} style={{ width: "100%", height: "auto" }} />
             </IconButton>
 
-          <div style={{display: 'flex', paddingLeft: '100px'}}>
-            <Button sx={{ my: 2, color: "primary", display: "block", mr: 10}}>
-            <Link
-                to="/gallery"
-                style={{ textDecoration: "none" }}
+            <div style={{ display: "flex", paddingLeft: "100px" }}>
+              <Button
+                sx={{ my: 2, color: "primary", display: "block", mr: 10 }}
               >
-              Products
-              </Link>
-            </Button>
+                <Link to="/gallery" style={{ textDecoration: "none" }}>
+                  Products
+                </Link>
+              </Button>
 
-            <Button sx={{ my: 2, color: "primary", display: "block" }}>
-            <Link
-                to="/dashboard"
-                style={{ textDecoration: "none" }}
-              >
-              Dashboard
-              </Link>
-            </Button>
+              <Button sx={{ my: 2, color: "primary", display: "block" }}>
+                <Link to="/dashboard" style={{ textDecoration: "none" }}>
+                  Dashboard
+                </Link>
+              </Button>
             </div>
 
             <Typography
@@ -75,10 +71,7 @@ function Navbar3() {
               sx={{ flexDirection: "row-reverse" }}
               style={{ background: "##FFB966" }}
             >
-              <Link
-                to="/"
-                style={{ textDecoration: "none", color: "#FFFF" }}
-              >
+              <Link to="/" style={{ textDecoration: "none", color: "#FFFF" }}>
                 Log Out
               </Link>
             </Button>
