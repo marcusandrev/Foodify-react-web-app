@@ -50,7 +50,7 @@ function Navbar3() {
               Products
             </Button>
 
-            <Button sx={{ my: 2, color: "primary", display: "block" }}>
+            <Button sx={{ my: 2, color: "black", display: "block" }}>
               Dashboard
             </Button>
             </div>
