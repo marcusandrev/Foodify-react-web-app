@@ -83,7 +83,19 @@ function gallery1() {
             p: "2px 4px",
             display: "flex",
             alignItems: "center",
-            width: 400,
+            // responsive design for searchbar
+            [theme.breakpoints.up('xl')]: {
+              width: '50vw',
+            },
+            [theme.breakpoints.up('lg')]: {
+              width: '60vw',
+            },
+            [theme.breakpoints.up('md')]: {
+              width: '70vw',
+            },
+            [theme.breakpoints.up('sm')]: {
+              width: '80vw',
+            },  
           }}
         >
           <IconButton type="submit" sx={{ p: "10px" }} aria-label="search">
