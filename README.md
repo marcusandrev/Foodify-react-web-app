@@ -1,3 +1,5 @@
+This is the first version of this app and which was submitted to the hackathon 😵!
+
 # About
 
 Foodify is a website portal that will help you choose and show all the nutritional content of the food that you’ll be cooking. This project was created in under 36 hours for GDSC Loyola HackFest 2022: Gen Z.
